@@ -2,12 +2,12 @@
 Tracing Arabica cup scores from farm to country
 
 University project for the *Data Management* course (University of Cassino and Southern Lazio).
-Dataset: [Coffee Quality Database from CQI](https://www.kaggle.com/datasets/volpatto/coffee-quality-database-from-cqi) — 1,311 Arabica samples.
+Dataset: [Coffee Quality Database from CQI](https://www.kaggle.com/datasets/volpatto/coffee-quality-database-from-cqi)  1,311 Arabica samples.
 
 #Project phases
 1. ER design(draw.io): 5 entities — Country, Owner, Farm, CoffeeSample, QualityAssessment
 2. Relational model (MySQL Workbench): forward engineering, PK/FK, delete rules
-   SQL**: staging-table load, data distribution with `INSERT … SELECT DISTINCT`, 9 analysis queries (JOIN, GROUP BY/HAVING, subqueries, CASE, VIEW)
+   SQL: staging-table load, data distribution with `INSERT … SELECT DISTINCT`, 9 analysis queries (JOIN, GROUP BY/HAVING, subqueries, CASE, VIEW)
 4. Python analysis: data quality assessment, cleaning, transformation, statistics, visualisation, machine learning
 
 # Key findings
